@@ -1,0 +1,31 @@
+html {
+	font-size: 10px; /* dit is een comment! px betekent pixels! lol! */
+	font-family: 'Josefin Sans', sans-serif;
+	background-color: #0f2794;
+}
+h1 {
+	font-size: 45px;
+	text-align: center;
+	margin: 0; /* om de default h1-styling te overriden (anders groot gat) */
+	padding: 20px 0;
+	color: black;
+	text-shadow: 3px 3px 7px black; /* 1e waarde = hor.offset 2e = vert.offset 3e = blur radius 4e = base color */
+}
+p, li {
+	font-size: 18px; 
+	line-height: 1.2; /* die 1-waarde is hetzelfde als geen line-heigt invullen denk ik */
+	letter-spacing: 1px; /* spacing tussen de letters */
+}
+body {
+	width: 600px; /* breedthe van het element body */
+	margin: 0 auto; /* de ruimte om dit element (body) heen (0 voor top/bottom, auto-verdeling links.rechts) */
+	background-color: orange; /* de achtergrondkleur van de body */
+	padding: 0 20px 20px 20px; /* de ruimte tussen de content (tekst) van de body en de rand van de body */
+	border: 3px solid black; /* de zwarte rand rondom de oranje body */
+}
+img {
+	border: 1px solid black;
+	display: block;
+	margin: 0 auto;
+	width: 450px; /* The body element is block level, meaning it takes up space on the page and can have margin and other spacing values applied to it. Images, on the other hand, are inline elements, meaning they can't. So to apply margins to the image, we have to give the image block-level behavior using display: block; */
+}
